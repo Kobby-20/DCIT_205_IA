@@ -115,16 +115,16 @@ nav{
 }
 @keyframes animate{
   0%, 100%{
-      background-image: url(../images/PHOTO\ 1.jpg);
+      background-image: url(/pictures/about-img2.jpeg);
   }
   25%{
-      background-image: url(../images/PHOTO2.jpg);
+      background-image: url(/pictures/batch__MG_0353.jpg);
   }
   50%{
-      background-image: url(../images/PHOTO\ 3.jpeg);
+      background-image: url(/pictures/coursedetail.jpeg);
   }
   75%{
-      background-image: url(../images/PHOTO\ 4.jpeg);
+      background-image: url(/pictures/program-bachelor-of-science-in-computer-.jpg);
   }
 }
 
@@ -239,7 +239,7 @@ nav{
 /** Styling Fixing **/
 .blur-image{
   background-attachment: fixed;
-  background-image: url(../images/University-of-Ghana-Admission-Forms.webp);
+  background-image: url(/pictures/University-of-Ghana-Admission-Forms.webp);
   height: 600px;
   width: 100%;
   box-sizing: border-box;
@@ -344,7 +344,7 @@ nav{
   color: #03f0f4;
   cursor: pointer;
   font-size:40px ;
-  background-image:url(../images/hard\ 2.jpg) ;
+  background-image:url(/pictures/University-of-Ghana-Admission-Forms.webp) ;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -536,7 +536,7 @@ h2 {
 }
 
 p {
-  color: #f8f7f7;
+  color: #000000;
 }
 
 .college  {
@@ -559,63 +559,143 @@ p {
 }
 
 
-/* Resource Pages Styles */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f0f8ff; 
+
+
+
+
+/* admission */
+.Admission{
+  padding: 20% 
 }
 
-header {
-  background-color: transparent; 
-  color: #d9d2e6;
-  text-align: center;
-  padding: 0.5em;
+.Admission span{
+  font-weight: bold;
+
 }
 
-.Resource-section {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #060000;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-  color: #006400;
-  text-align: center; 
-}
-
-p {
-  color: #f8f7f7;
-}
-
-.r {
-  background-color: #207295;
-  padding: 15px;
-  border-radius: 8px;
-  margin-bottom: 60px;
+.Admission h1{
   font-size: 30px;
-  font-family: 'Times New Roman', Times, serif;
+  border-bottom: 4px solid lightgray;
+ 
 }
 
-.footer {
-  background-color: #006400;
-  color: #fff;
+.Admission p{
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+ 
+.Admission li{
+  justify-content: left;
+  list-style-type: disc;
+  margin-bottom: 10px;
+}
+
+/* resource */
+.Resource{
+  padding: 20% 
+}
+
+.Resource span{
+  font-weight: bold;
+
+}
+
+.Resource h1{
+  font-size: 30px;
+  border-bottom: 4px solid lightgray;
+ 
+}
+
+.Resource p{
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+ 
+.Resource li{
+  justify-content: left;
+  list-style-type: disc;
+  margin-bottom: 10px;
+}
+
+
+/* facility */
+.Facility{
+  padding: 20% 
+}
+
+.Facility span{
+  font-weight: bold;
+
+}
+
+.Facility h1{
+  font-size: 30px;
+  border-bottom: 4px solid lightgray;
+ 
+}
+
+.Facility p{
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+ 
+.facility li{
+  justify-content: left;
+  list-style-type: disc;
+  margin-bottom: 10px;
+}
+
+
+
+/* Footer Styles */
+footer {
+  background-color: #ece5e5;
+  color: white;
+  padding: 2em 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  max-width: 300px;
+  margin: 0 1em;
+}
+
+.footer-section h3 {
+  color: #1a73e8;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.5em;
+}
+
+.footer-section a {
+  color: rgb(8, 8, 8);
+  text-decoration: none;
+}
+
+.footer-bottom {
+  margin-top: 1em;
   text-align: center;
-  padding: 1em;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
 
-
-
-
-
-
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .footer-section {
+      flex: 1 0 100%;
+      margin: 0 0 1em 0;
+  }
+}
 
 
 
